@@ -1,0 +1,183 @@
+body{
+	font-family: 'Sarabun', sans-serif !important;
+}
+
+h2{
+	font-size: 3.75em !important;
+	font-weight: 900 !important;
+}
+
+p{
+	font-size: 1.3em !important;
+	font-weight: 600 !important;
+}
+
+.pres{
+	font-size: 1.5em !important;
+	font-weight: 600 !important;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-top: -175px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ventana-deskxl{
+	position:absolute; 
+	top:50%; 
+	left:50%;
+	margin-top: -258px;
+	margin-left: -512px; 
+	visibility:visible; 
+	z-index:10;
+}
+
+.ventana-deskxl img{
+	max-width: 100%;
+}
+
+.ventana-mov{
+	position:absolute; 
+	top:50%; 
+	left:50%;
+	margin-top: -270px;
+	margin-left: -152px; 
+	visibility:visible; 
+	z-index:10;
+}
+
+.ventana-mov img{
+	max-width: 100%;
+}
+
+.ventana-desklg{
+	position:absolute; 
+	top:50%; 
+	left:50%;
+	margin-top: -253px;
+	margin-left: -450px; 
+	visibility:visible; 
+	z-index:10;
+}
+
+.ventana-desklg img{
+	max-width: 100%;
+}
+
+.tventana-xl{
+	position:absolute; 
+	top:50%; 
+	left:50%;
+	margin-top: -100px;
+	margin-left: -310px; 
+	visibility:visible; 
+	z-index:20;
+}
+
+.tventana-xs{
+	position:absolute; 
+	top:50%; 
+	left:50%;
+	margin-top: -175px;
+	margin-left: -120px; 
+	visibility:visible; 
+	z-index:20;
+}
+
+.hwel{
+	font-size: 1.35em;
+	font-weight: 200;
+}
+
+.ht1{
+	margin-top: -.5em;
+}
+
+.ht1m{
+	margin-top: 0em;
+	font-size: 2.5em !important;
+	line-height: 1.5em !important;
+}
+
+.rojo{
+	color: rgba(212,60,55,1) !important;
+}
+
+.anaranjado{
+	color: rgba(214,120,34,1) !important;
+}
+
+.amarillo{
+	color: rgba(211,163,28,1) !important;
+}
+
+.verde{
+	color: rgba(31,151,53,1) !important;
+}
+
+.azul{
+	color: rgba(19,81,150,1) !important;
+}
+
+.morado{
+	color: rgba(130,61,136,1) !important;
+}
+
+.grad6 {
+  background-image: linear-gradient(to right, rgba(130,61,136,1) , rgba(212,60,55,1));
+}
+
+.bg-50{
+	background-color: rgba(0,0,0,0.5) !important;
+} 
+
+
+.txtbtn{
+	font-family: 'Sarabun', sans-serif !important;
+	font-weight: 600 !important;
+}
+
+.btn-tmorado{
+	background-color: white !important;
+	color: rgba(130,61,136,1) !important;
+}
+
+nav ul li{
+	font-size: 1.25em !important;
+}
+
+@media screen and (max-width: 991px){
+.sidebar-collapse .navbar-collapse:before{
+	background-image: linear-gradient(to top, rgba(19,81,150,1) 10%, rgba(31,151,53,1)100%) !important;
+	opacity: 1 !important;
+}
+}
+
+.full-h{
+	height: 100vh;
+	min-height: 350px;
+}
+
+.social-icons:hover{
+	filter: drop-shadow(1px 1px 2px rgba(130,61,136,1));
+}
+  
+#nosotros{
+  background-image: url(fondo01.png);
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+
+  
