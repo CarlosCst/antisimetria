@@ -175,9 +175,7 @@ nav ul li{
 }
   
 #nosotros{
-  background-image: url(antisimetria.com/assets/img/fondo01.png);
-  background-repeat: no-repeat;
-  background-position:center center;
+  background-image: url('http://antisimetria.com/assets/img/fondo01.svg');
+  background-size: cover;
+  background-position: center;
 }
-
-  
