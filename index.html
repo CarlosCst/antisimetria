@@ -19,7 +19,7 @@
   
   </head>
 
-  <body class="index-page sidebar-collapse">
+  <body class="index-page sidebar-collapse" data-spy="scroll" data-target=".navbar" data-offset="120">
     <nav class="navbar navbar-expand-lg bg-50 fixed-top navbar-transparent " color-on-scroll="100">
       <div class="container">
         <div class="navbar-translate">
@@ -53,7 +53,6 @@
         </div>
       </div>
     </nav>
-    <header>
       <div id="home" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#home" data-slide-to="0" class="active"></li>
@@ -95,9 +94,9 @@
       <div class="tventana-xs d-md-block d-lg-none d-xl-none">
         <h1 class="hwel text-white">BIENVENIDO<br>A ANTISIMETRÍA</h1>
         <h2 class="ht1m text-white">ES HORA<br>DE LLEVAR<br>TU NEGOCIO<br>A INTERNET</h2>
-        <div class="text-center"><button type="button" class="btn btn-lg grad6 txtbtn">CUÉNTANOS TU IDEA</button></div> 
+        <a href="#contacto"><div class="text-center"><button type="button" class="btn btn-lg grad6 txtbtn">CUÉNTANOS TU IDEA</button></div></a> 
       </div>
-    </header>
+
     <section id="nosotros">
       <div class="container d-none d-lg-block fondo-nosotros">
         <div class="row align-items-center justify-content-center full-h fondo-nosotros">
@@ -134,6 +133,186 @@
           <br><br><br><p class="pres">AntisimetríA es un estudio creativo conformado por especialistas que se encargarán de llevar de forma optima tu marca al gran mundo de Internet. Nos encargamos desde la creación de tu logo y sitio web hasta la personalidad y presencia de tu marca en redes sociales. Revisa todo lo que podemos hacer por ti.</p>
       </div> 
     </section>
+    <section id="servicios">
+      <div id="carouselServicios" class="carousel slide" data-ride="carousel">
+      
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active">
+          <div class="carousel-caption ">
+            <div class="row ">
+              <div class="col-sm-12 col-md-3 text-left txt-slide">
+                <h2 class="text-dark">Diseño<br>Gráfico</h2>
+                <p class="text-dark">
+                  Aquí inicia todo. Comunicar visualmente de forma correcta lo que quiere decir tu marca es vital para que tu negocio en internet sobresalga de la competencia y puedas llegar a tu público meta. Dejanos hacer la identidad visual de tu marca y notarás la difrencia.
+                </p>
+              </div>
+              <div class="col-md-2"></div>
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col"><img src="./assets/img/img-diseno.png" alt="" style="margin-top: -170px;"></div>
+                  <div class="col"><img src="./assets/img/img-diseno.png" alt="" style="margin-top: 70px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <div class="carousel-caption ">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-3 text-left txt-slide-v t-m-web">
+                <h2 class="text-dark">Diseño<br>Web</h2>
+                <p class="text-dark">
+                  Más de 75 millones de Méxicanos usan internet, y la mejor forma de decirle a google que tu marca esta en línea es con un sitio web, no te quedes atrás de tu comptencia, nosotros lo hacemos por tí.
+                </p>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-8">
+                  <div class="col"><img src="./assets/img/img-web.png" alt="" class="i-m-web"></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <div class="carousel-caption ">
+            <div class="row ">
+              <div class="col-sm-12 col-md-3 text-left txt-slide-m t-m-mark">
+                <h2 class="text-dark">Marketing<br>Digital</h2>
+                <p class="text-dark">
+                  Internet no solo esta lleno de clientes, la competencia es cada vez mayor, y tener una estrategía para ubicar a tu publico meta y saber llegar a él, es vital para el éxito de tu negocio en internet. Tú tranquilo, nosostros nos encargamos.
+                </p>
+              </div>
+              <div class="col-md-2"></div>
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col"><img src="./assets/img/img-marketing-1.png" alt="" class="i-m-mark-1"></div>
+                  <div class="col"><img src="./assets/img/img-marketing-2.png" alt="" class="i-m-mark-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide Four - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <div class="carousel-caption ">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-3 text-left txt-slide t-m-vid">
+                <h2 class="text-dark">Creación<br>de Vídeo</h2>
+                <p class="text-dark">
+                  El formato multimedia más consumido en internet. Esta en todos lados, y es que hay muchas formas de sacarle provecho, pero hay que saber hacerlo, ya que si no, lejos de ayudarte se verá forzado e intrusivo. Te ayudamos a darle un plus a tu marca con este formato.
+                </p>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-8">
+                  <div class="col"><iframe width="720" height="405" src="https://www.youtube.com/embed/VKx_gzIKPUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselServicios" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+      <a class="carousel-control-next" href="#carouselServicios" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>  
+    </section>
+    <section id="como-trabajamos">
+     <div class="container">
+       <div class="row full-h">
+         <div class="col-sm-12 col-lg-6 m-t-120">
+           <div class="row container">
+            <h2 class="text-dark">¿Cómo<br>Trabajamos?</h2>
+           </div>
+           <div class="row m-t-90">
+            <div class="col-3"><img src="./assets/img/paso-1.png" alt=""></div>
+            <div class="col-8">
+              <p>Primero haremos el brief, en él te preguntaremos todo lo que necesitamos saber de tu negocio y de tu proyecto en particular.</p>
+            </div>
+            <div class="col-1"></div> 
+           </div>
+           <div class="row m-t-120">
+            <div class="col-3"><img src="./assets/img/paso-2.png" alt=""></div>
+            <div class="col-8"><p>Después haremos una investigación para completar la información que tenemos de tu negocio y saber como puedes destacar frente a tu competencia.</p></div> 
+            <div class="col-1"></div>
+           </div>
+         </div>
+         <div class="col-sm-12 col-lg-6">
+           <div class="row m-t-130">
+            <div class="col-1"></div>
+            <div class="col-3"><img src="./assets/img/paso-3.png" alt=""></div>
+            <div class="col-8">
+              <p>Con la información recopilada crearemos una propuesta (o más si se requiere) que se adapte por completo a las nececidades de tu negocio.</p>
+            </div> 
+           </div>
+           <div class="row m-t-90">
+            <div class="col-1"></div>
+            <div class="col-3"><img src="./assets/img/paso-4.png" alt=""></div>
+            <div class="col-8">
+              <p>Desarrollamos la propuesta y en caso de que se requiera haremos los ajustes correspondientes para poder implementarla.</p>
+            </div> 
+           </div>
+           <div class="row m-t-120">
+            <div class="col-1"></div>
+            <div class="col-3"><img src="./assets/img/paso-5.png" alt=""></div>
+            <div class="col-8">
+              <p>Finalmente te haremos llegar los entregables o implementaremos tu proyecto según sea el caso.<br>Cuéntanos tu idea.</p>
+            </div> 
+           </div>
+         </div>
+       </div>
+     </div> 
+    </section>
+
+    <section id="contacto">
+      <div class="container d-none d-lg-block fondo-nosotros">
+        <div class="row align-items-center justify-content-center full-h fondo-nosotros">
+          <div class="col-md-5">
+            <h2>Cuéntanos<br>tu idea</h2>
+            <div class="row container">
+              <p>¿Tienes una idea? Nosotros la podemos hacer realidad, envíanos un mensaje contandonos lo que tienes en mente, también puedes agendar una cita ya sea presencial o via Skype. Es hora de llevar tu negocio a Internet.</p>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5">
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tus datos con nadie.</small>
+              </div>
+              <div class="form-group">
+                <label for="Correo">Correo</label>
+                <input type="email" class="form-control" id="Correo" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Cuéntanos tu idea</label>
+                <textarea class="form-control" id="mensaje" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg grad6 txtbtn">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container d-lg-none full-h align-items-center justify-content-center">
+          <div style="height: 130px"></div>
+          <h2>¿Qué es<br>AntisimetríA?</h2><br>
+          &nbsp;<a href="" target="_blank"><img class="social-icons" src="./assets/img/facebook.svg" height="30px" alt="Facebook de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/instagram.svg" height="30px" alt="Instagram de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/youtube.svg" height="30px" alt="Youtube de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/behance.svg" height="30px" alt="Behance de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/twitter.svg" height="30px" alt="Twitter de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/pinterest.svg" height="30px" alt="Pinterest de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/dribbble.svg" height="30px" alt="Dribble de AntisimetríA"></a>&nbsp;
+          <a href="" target="_blank"><img class="social-icons" src="./assets/img/linkedin.svg" height="30px" alt="Linkedin de AntisimetríA"></a>&nbsp;
+          <br><br><br><p class="pres">AntisimetríA es un estudio creativo conformado por especialistas que se encargarán de llevar de forma optima tu marca al gran mundo de Internet. Nos encargamos desde la creación de tu logo y sitio web hasta la personalidad y presencia de tu marca en redes sociales. Revisa todo lo que podemos hacer por ti.</p>
+      </div> 
+    </section>
 
 
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -151,6 +330,7 @@
     $(document).ready(function() {
       // the body of this function is in assets/js/now-ui-kit.js
       nowuiKit.initSliders();
+
     });
 
     function scrollToDownload() {
@@ -161,5 +341,7 @@
         }, 1000);
       }
     }
+
   </script>
+  
 </html>
