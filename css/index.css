@@ -16,6 +16,10 @@ p{
 	font-weight: 600 !important;
 }
 
+.carousel-inner{
+	box-shadow: none !important;
+}
+
 .txt-slide{
 	top: -200px;
 }
@@ -183,13 +187,13 @@ nav ul li{
 }
   
 #nosotros{
-  background-image: url('http://antisimetria.com/assets/img/fondo01.svg');
+  background-image: url('/assets/img/fondo-nosotros.png');
   background-size: cover;
   background-position: center;
 }
 
 #contacto{
-  background-image: url('http://antisimetria.com/assets/img/fondo01.svg');
+  background-image: url('/assets/img/fondo-contacto.png');
   background-size: cover;
   background-position: center;
 }
