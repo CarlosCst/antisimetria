@@ -248,6 +248,11 @@ nav ul li{
 	top: -167px;
 }
 
+#videoBG {
+    position:fixed;
+    z-index: -99;
+}
+
 
 /*---Cambiar iconos de desplazamiento del slide ----
 .carousel-control-prev-icon{background-image: url(data:);}
