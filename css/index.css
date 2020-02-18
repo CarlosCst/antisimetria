@@ -301,6 +301,10 @@ nav ul li{
 	margin-top: 20px !important;
 }
 
+.pad-30{
+	padding-left: 30px !important;
+}
+
 
 
 @media (max-width: 1030px){
