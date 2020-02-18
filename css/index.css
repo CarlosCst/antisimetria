@@ -379,3 +379,8 @@ nav ul li{
 	left: 345px !important;
 	}
 }
+@media (max-width: 1000px){
+	#contacto{
+	  background-image: linear-gradient(90deg, D67820, #D2A31A,) !important;
+	}
+}
